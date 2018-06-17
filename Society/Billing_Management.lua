@@ -52,6 +52,15 @@ select all : xPlayer.identifier to xPlayer.name
 
 ----------------- Client -----------------
 
+local defaultOptions = {
+  withdraw  = true,
+  deposit   = true,
+  wash      = true,
+  employees = true,
+  grades    = true,
+  billing   = true
+}
+
 In '''function OpenBossMenu(society, close, options)''' 
     
   if options.billing then
